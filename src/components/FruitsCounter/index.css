@@ -1,0 +1,83 @@
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.inner-container {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.count-color {
+  color: #ffd569;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 40px;
+  }
+}
+
+.fruits-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-containers {
+    flex-direction: row;
+  }
+}
+
+.fruit-container {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fruit-img {
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruit-img {
+    width: 260px;
+  }
+}
+
+.button {
+  margin-top: 20px;
+  border-width: 0px;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 6px;
+  width: 90px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
